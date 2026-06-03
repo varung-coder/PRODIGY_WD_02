@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Stopwatch</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="background">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+    </div>
+    
+    <div class="container">
+        <div class="stopwatch-card">
+            <h1 class="title">Stopwatch</h1>
+            <div class="time-display" id="time-display">
+                00:00:00<span class="milliseconds">.00</span>
+            </div>
+            
+            <div class="controls">
+                <button class="btn btn-primary" id="start-pause-btn">
+                    <i class="fas fa-play"></i> Start
+                </button>
+                <button class="btn btn-secondary" id="lap-btn" disabled>
+                    <i class="fas fa-flag"></i> Lap
+                </button>
+                <button class="btn btn-danger" id="reset-btn" disabled>
+                    <i class="fas fa-undo"></i> Reset
+                </button>
+            </div>
+            
+            <div class="laps-container">
+                <div class="laps-header">
+                    <span>Lap</span>
+                    <span>Time</span>
+                    <span>Total</span>
+                </div>
+                <ul class="laps-list" id="laps-list">
+                    <!-- Laps will be dynamically inserted here -->
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
