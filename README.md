@@ -79,7 +79,7 @@ Throughout the development of this application, I gained valuable experience and
 ## 👨‍💻 Author
 
 **G VARUN**  
-*Web Development Intern*
+*Web Development Intern* at Prodigy Infotech
 
 - GitHub: [@varung-coder](https://github.com/varung-coder)
 
