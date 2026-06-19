@@ -25,8 +25,7 @@ This project is a sophisticated, interactive Stopwatch Web Application designed 
 
 ## 🚀 Live Demo
 
-Experience the live application here:  
-👉 **[PRODIGY_WD_02 Live Demo](https://varung-coder.github.io/PRODIGY_WD_02/)**
+Experience the live application here:  https://varung-coder.github.io/PRODIGY_WD_02/
 
 <br />
 
